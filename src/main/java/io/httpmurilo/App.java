@@ -15,6 +15,9 @@ public class App
             ProductsComponent productsComponent = new ProductsComponent();
             System.out.println(productsComponent.tryConnection());
             System.out.println(productsComponent.tryConnectionForClassName());
+            productsComponent.printProductList();
+            productsComponent.printProductListTwo();
+            productsComponent.printProductListThree();
 
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
